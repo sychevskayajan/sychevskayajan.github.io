@@ -1,0 +1,249 @@
+html, body{
+	margin: 0;
+	padding:0;
+	font-style: normal;
+}
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}
+.wrapper{
+	font-family: 'Lato', sans-serif;
+	color: rgba(254,254,255,0.8);
+}
+.header{
+	display: block;
+	min-height: 615px;
+	background: url(../images/header_back.jpg) no-repeat;
+	max-width: 1900px;
+	margin: 0 auto;
+	min-width: 590px;
+	height: 100%;
+}
+.grey_strip{
+	display: block;
+	max-width: 1900px;
+	margin: 0 auto;
+	background: rgba(88,86,86,0.6);
+	height: 70px;
+	padding: 10px 0 ;
+	position: fixed;
+	width: 100%;
+}
+.wrap_grey{
+	max-width: 1172px;
+	margin: 0 auto;
+}
+.header_container{
+	max-width: 1172px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 23px;
+}
+.logo{
+	background: url(../images/logo.png);
+	display: block;
+	width: 93px;
+	height: 71px;
+	float: left;
+}
+.menu{
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	z-index: 100;
+
+}
+.menu li{
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #727272;
+	border-radius: 4px;
+}
+.menu a{
+	text-decoration: none;
+	color: rgba(254,254,255,0.8);
+	padding: 0 22px
+}
+.language{
+	float: right;
+	margin-top: 17px;
+	border:  1px solid #727272;
+	border-radius: 4px;
+	position: relative;
+	z-index: 101;
+
+}
+.dropdown li{ 
+	position: relative; 
+
+}
+.dropdown, .dropdown-inside {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+select{
+	width: 255px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+ .dropdown-inside {
+	 position: absolute;
+	 left: -9999px;
+}
+ ul.dropdown li.dropdown-top {
+ display: inline;
+ float: left;
+ margin: 0 1px 0 0;
+ }
+ ul.dropdown li.dropdown-top a {
+ padding: 3px 10px 4px;
+ display: block;
+ }
+ ul.dropdown li.dropdown-top:hover .dropdown-inside {
+ display: block;
+left: 0px;
+ }
+ ul.dropdown .dropdown-inside { background: #fff; }
+ ul.dropdown .dropdown-inside a:hover { background: #efefef; }
+.dropdown-top a{
+	text-decoration: none;
+	color: rgba(254,254,255,0.8);
+}
+.dropdown-inside a{
+	color: #000;
+	display: block;
+	width: 70px;
+	font-size: 12px;
+}
+.header_text{
+	clear: both;
+	text-align: center;
+	padding: 90px 0 50px;
+	font-size: 36px;
+	font-weight: 300;
+}
+.wrapper_form{
+	display: block;
+	width: 600px;
+	height:368px;
+	margin: 0 auto 50px;
+	background: rgba(254,254,255,0.2);
+	border-radius: 3px;
+	padding: 15px 0;
+	font-size: 22px;
+}
+.username{
+	float: left;
+	width: 200px;
+	display: block;
+	text-align: right;
+	padding-top: 27px;
+}
+.login{
+	width: 330px;
+	height: 30px;
+	margin-left: 30px; 
+	font-size: 18px;
+	float: left;
+	margin-top: 20px;
+}
+.password{
+	float: left;
+	width: 200px;
+	display: block;
+	text-align: right;
+	padding-top: 8px;
+	margin-top: 25px;
+	font-size: 22px;
+}
+.pas_enter{
+	width: 330px;
+	height: 30px;
+	margin-left: 30px; 
+	font-size: 18px;
+	float: left;
+	margin-top: 25px;
+
+}
+input[type=submit]{
+   width:412px;
+   height: 42px;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 3px;
+   background: #42b574;
+   border: 0;
+   color: #fff;
+}
+.submit{
+	clear: both;
+	padding: 40px 90px 0;
+}.footer{
+	display: block;
+	height: 88px;
+	max-width: 1900px;
+	margin: 0 auto;
+	min-width: 590px;
+	padding-right: 82px;
+	background: #fff;
+}
+.contacts{
+	float: left;
+	padding:30px 0 0 74px;
+}
+.contacts li{
+	display: inline-block;
+	list-style: none;
+	color: rgba(33,33,33,0.6);
+}
+.contacts ul{
+	margin: 0;
+	padding:0;
+}
+.contacts a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 10px ;
+}
+.facebook{
+	background: url(../images/socials/fb.png) no-repeat;
+	margin-top: 3px;
+}
+.twitter{
+	background: url(../images/socials/tw.png) no-repeat;
+}
+.in{
+	background: url(../images/socials/in.png) no-repeat;
+}
+.cont_text{
+	height: 33px;
+	vertical-align: top;
+	font-size: 13px;
+}
+.facebook, .twitter, .in{
+	margin-top: 10px;
+}
+.copyright{
+	float: right;
+	color: #000;
+	font-size: 10px;
+	margin: 35px 15px 0 0;
+}
+.policy{
+	float: right;
+	font-size: 10px;
+	margin: 35px 15px 40px 0;
+}
+.policy a{
+	text-decoration: none;
+	color: rgba(33,33,33,0.6);
+}
